@@ -1,0 +1,90 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #000000;
+	margin:0;
+}
+.maintext {	
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.maintextBold {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.maintextBoldlinks {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.maintextBoldlinks:hover {
+	font-weight: bold;
+	color: #FFFB22;
+	text-decoration: none;
+}
+.CEMETUBE {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footerlinks {
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFB22;
+	text-decoration: none;
+}
+.footerlinks:hover {	
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footert {	
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.blacktext {	
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+.smblack {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.new-nav {
+	width:434px;
+	height:40px;	
+	text-align:right;
+	padding-right:15px;
+	padding-top:3px;
+	background:#FFFB20 url(images/nav-full-bg.png) no-repeat 0 0;
+}
+.new-nav li {float:right; padding:0 10px;}
+
+.new-nav a.home, .new-nav a.request {
+	padding:10px 10px;
+	text-align:center;
+	line-height:43px;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+.new-nav a.home:hover, .new-nav a.request:hover {
+	text-decoration:none;	
+}
+
+.new-nav a.home:hover {
+	background:url(images/nav-hover.gif) no-repeat 105% 18px;
+}
+
+.new-nav a.request:hover {
+	background:url(images/nav-hover.gif) no-repeat 102% 18px;
+}
